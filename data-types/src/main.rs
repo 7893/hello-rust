@@ -76,10 +76,13 @@ fn main() {
 
     let b: [i32; 5] = [1, 2, 3, 4, 5];
     //let a=[3,3,3,3,3];
-    let a = [3, 5];
+    let c = [3; 5];
 
     let first = months[0];
     let second = months[1];
     println!("first:{}", first);
     println!("second:{}", second);
+    println!("a[0]:{}", a[0]);
+    println!("b[1]:{}", b[1]);
+    println!("c[4]:{}", c[4]);
 }
