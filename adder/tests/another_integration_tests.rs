@@ -1,5 +1,6 @@
-#![allow(unused_variables)]
 use adder;
+
+mod common;
 
 #[test]
 fn it_adds_two() {

@@ -1,5 +1,5 @@
-#![allow(unused_variables)]
 use adder;
+
 mod common;
 
 #[test]

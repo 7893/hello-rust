@@ -8,7 +8,7 @@ pub fn gerrting(_name: &str) -> String {
 }
 
 pub struct Guess {
-    value: u32,
+    value: u32
 }
 
 impl Guess {
@@ -30,6 +30,7 @@ impl Guess {
 
 #[cfg(test)]
 mod tests {
+    //导入外部模块所有内容
     use super::*;
 
     #[test]
@@ -38,6 +39,7 @@ mod tests {
     }
 
     #[test]
+    //由于有了Err 所以如果发生错误则会直接返回 Err，不应该标注 should_panic 
     fn it_works_two() -> Result<(), String> {
         if 2 + 2 == 4 {
             Ok(())
