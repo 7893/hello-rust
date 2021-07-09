@@ -1,1 +1,3 @@
-pub fn setup() {}
+pub fn setup() {
+    println!("setup() function in common.");
+}

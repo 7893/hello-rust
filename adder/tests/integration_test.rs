@@ -1,5 +1,4 @@
 use adder;
-
 mod common;
 
 #[test]
