@@ -1,2 +1,2 @@
 # TRPL
-<<The Rust Programming Language>> source codes.
+& lt;& lt;The Rust Programming Language& gt;& gt; source codes.
