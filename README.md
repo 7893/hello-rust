@@ -1,2 +1,2 @@
-# hello-rust
-hello-rust
+# TRPL
+<<The Rust Programming Language>> source codes.
